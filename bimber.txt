@@ -1,0 +1,33 @@
+
+Bimber: content-single-classic.php (template-parts/content-single-classic.php)
+
+<?php bimber_render_entry_title( '<h1 class="g1-mega g1-mega-1st entry-title" itemprop="headline">', '</h1>' ); ?>
+
+
+
+
+
+Bimber: header.php (template-parts/page/header.php)
+
+<?php if ( strlen( $bimber_title ) ) : ?>
+				<h1 class="g1-alpha g1-alpha-2nd page-title"><?php echo wp_kses_post( $bimber_title ); ?></h1>
+			<?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+
+#ff0036
+
+/* Recent posts header size */
+.g1-delta-2nd {
+  font-size: 18px;
+  font-family: 'Roboto', arial, sans-serif;
+	Color:#fba51d
+}
